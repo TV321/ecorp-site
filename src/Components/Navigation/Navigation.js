@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navigation.sass';
 
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -18,16 +19,16 @@ const Navigation = () =>{
             </div>
             <div id="main-nav">
                 <ul id="main-list">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="www.home.com">Home</a></li>
+                    <li><a href="www.home.com">About</a></li>
+                    <li><a href="www.home.com">Contact</a></li>
                 </ul>
             </div>
             <div id="social-nav">
                 <ul>
-                    <li><a href="">{ facebook }</a></li>
-                    <li><a href="">{ instagram }</a></li>
-                    <li><a href="">{ youtube }</a></li>
+                    <li><a href="www.facebook.com">{ facebook }</a></li>
+                    <li><a href="www.instagram.com">{ instagram }</a></li>
+                    <li><a href="www.youtube.com">{ youtube }</a></li>
                 </ul>
             </div>
         </nav>

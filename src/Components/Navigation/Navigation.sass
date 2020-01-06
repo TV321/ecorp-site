@@ -7,7 +7,8 @@
     src: local('BLACK OPS 2'), url('blops.woff') format('woff')
 
 nav
-    background-color: dodgerblue
+    background-color: rgba(55,82,141,1)
+    // background-image: linear-gradient(0deg, rgba(75,108,183,1) 0%, rgba(55,82,141,1) 90%)
     color: lightcyan
     margin: 0
     display: flex
@@ -35,17 +36,33 @@ nav
         color: lightcyan
         font-size: 1.2em
         display: flex
+        a
+            color: #d6dcdf
+            transition: all .3s linear
+            &:hover
+                color: lighten(dodgerblue, 20%)
+
 
     #social-nav
         font-size: 2em
         display: flex
         right: 25%
         margin-right: 25%
+        a
+            color: #d6dcdf
+            transition: all .3s linear
+            &:hover
+                color: lighten(dodgerblue, 20%)
     #logo-nav
         display: flex
         margin-left: 25%
         p
             align-self: center
+            background-color: #d9d9d9
+            padding: 10px
+            border-radius: 20px 7px
+            box-shadow: 0px 4px 0px .8px rgba(41, 41, 41, 0.90)
+            color: #656262
 
 @media all and (max-width: 1350px)
     nav
