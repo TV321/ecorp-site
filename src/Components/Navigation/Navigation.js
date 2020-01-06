@@ -17,17 +17,17 @@ const Navigation = () =>{
                 <p>Evil Corp.</p>
             </div>
             <div id="main-nav">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                <ul id="main-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </div>
             <div id="social-nav">
                 <ul>
-                    <li>{ facebook }</li>
-                    <li>{ instagram }</li>
-                    <li>{ youtube }</li>
+                    <li><a href="">{ facebook }</a></li>
+                    <li><a href="">{ instagram }</a></li>
+                    <li><a href="">{ youtube }</a></li>
                 </ul>
             </div>
         </nav>
