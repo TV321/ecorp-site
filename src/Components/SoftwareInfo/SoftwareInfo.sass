@@ -1,0 +1,84 @@
+#software
+
+    margin: 40px 0
+    img
+        width: 300px
+        height: auto
+    #software-container
+        margin: 0 auto
+        display: grid
+        grid-template-columns: 1fr 2fr
+        width: 800px
+        grid-column-gap: 100px
+        h3
+            align-self: flex-start
+            text-transform: uppercase
+            color: #4d4b4b
+            font-size: 2em
+        p
+            margin-right: 10px
+            color: #6b6969
+            font-size: 1em
+            line-height: 25px
+            margin-bottom: 50px
+
+        ul
+            list-style: none
+            padding: 0
+            margin-bottom: 30px
+
+            li
+                line-height: 35px
+                font-size: 1.2em
+                color: #4d4b4b
+
+                .software-icon
+                    margin-right: 20px
+                    font-size: 1.5em
+        a
+            text-decoration: none
+            color: #4d4b4b
+            .play-icon
+                margin-right: 15px
+            &:hover
+                color: #3046b6
+        #about-video
+            border: 2px solid #4d4b4b
+            padding: 10px 20px
+            text-transform: uppercase
+            font-size: 1em
+            font-weight: 500
+            margin-right: 20px
+            transition: all .3s linear
+            &:hover
+                border: 2px solid #3046b6
+        #get-app
+            font-size: 1em
+            font-weight: 500
+
+@media all and (max-width: 900px)
+    #software
+        #software-container
+            #about-video
+                margin-right: 10px
+    #software
+        #software-container
+            padding: 100px
+            height: auto
+            max-width: 400px
+            border: 1px solid blue
+            grid-template-columns: 1fr
+            section
+                grid-column: 1/3
+                justify-self: center
+                a
+                    text-align: center
+            img
+                grid-column: 1/3
+                justify-self: center
+@media all and (max-width: 600px)
+    #software
+        #software-container
+            padding: 10px
+            #about-video
+                margin-right: 0

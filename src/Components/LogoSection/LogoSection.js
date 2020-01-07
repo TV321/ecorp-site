@@ -7,7 +7,7 @@ import paypal from './paypal_logo.png';
 
 const LogoSection = () => {
     return (
-        <section>
+        <section id="logos">
             <img src={ google } alt=""/>
             <img src={ facebook } alt=""/>
             <img src={ yahoo } alt=""/>
