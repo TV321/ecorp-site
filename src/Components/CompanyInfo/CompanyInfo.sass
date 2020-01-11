@@ -1,0 +1,28 @@
+#company-wrapper
+    background: rgb(28,122,191)
+    background: linear-gradient(0deg, rgba(58, 111, 190, 1) 0%, rgba(55,82,141,1) 100%)
+
+#company-info
+    margin: 0 auto
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    padding: 50px 30px
+    max-width: 1200px
+    height: auto
+
+    #company-section
+        text-align: center
+        padding: 20px
+        color: rgb(213, 213, 213)
+
+        h3
+            text-transform: uppercase
+            font-size: 1.4em
+        p
+            font-size: 1em
+        i
+            font-size: 1.5em
+
+@media all and (max-width: 600px)
+    #company-info
+        grid-template-columns: 1fr
