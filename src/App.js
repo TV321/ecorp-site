@@ -5,6 +5,7 @@ import LogoSection from './Components/LogoSection/LogoSection';
 import SoftwareInfo from './Components/SoftwareInfo/SoftwareInfo';
 import CompanyInfo from './Components/CompanyInfo/CompanyInfo';
 import Testimonials from './Components/Testimonials/Testimonials';
+import Contact from './Components/Contact/Contact';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <SoftwareInfo />
           <CompanyInfo />
           <Testimonials />
+          <Contact />
       </React.Fragment>
 
   );
