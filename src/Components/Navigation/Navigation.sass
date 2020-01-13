@@ -36,12 +36,20 @@ nav
         color: lightcyan
         font-size: 1.2em
         display: flex
+
+        .border-bottom::after
+            content: ''
+            display: block
+            width: 0
+            height: 2px
+            background: #222222
+            transition: width .3s
+        .border-bottom:hover::after
+            width: 100%
+
         a
             color: #d6dcdf
             transition: all .3s linear
-            &:hover
-                color: lighten(dodgerblue, 20%)
-
 
     #social-nav
         font-size: 2em
@@ -49,10 +57,14 @@ nav
         right: 25%
         margin-right: 25%
         a
-            color: #d6dcdf
+            color: #222222
             transition: all .3s linear
+
+
+
+
             &:hover
-                color: lighten(dodgerblue, 20%)
+                color: #d6dcdf
     #logo-nav
         display: flex
         margin-left: 25%
