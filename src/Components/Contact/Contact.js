@@ -5,14 +5,16 @@ const Contact = () => {
     return(
         <div id="contact-wrapper">
             <div id="contact">
-                <h3>Contact Us</h3>
-                <p>Morbi sed justo vel eros pharetra mollis in sed ligula.</p>
+                <div id="contact-header">
+                    <h3>Contact Us</h3>
+                    <p>Morbi sed justo vel eros pharetra mollis in sed ligula.</p>
+                </div>
                 <form>
-                    <input type="text" placeholder="Your name..."/>
-                    <input type="email" placeholder="Your email..."/>
-                    <textarea rows="5" cols="20" placeholder="Your message...">
+                    <input type="text" placeholder="Name"/>
+                    <input type="email" placeholder="Email"/>
+                    <textarea rows="5" cols="20" placeholder="Message">
                     </textarea>
-                    <button>Submit</button>
+                    <button>Send</button>
                 </form>
             </div>
         </div>
