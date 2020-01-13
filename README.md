@@ -1,2 +1,2 @@
-## Ecorp SPA
+## Ecorp Website
 made with React
